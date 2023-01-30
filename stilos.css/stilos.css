@@ -1,0 +1,20 @@
+
+.classfondo{
+    background-color: rgb(213, 202, 224);
+}
+
+
+
+#nombre{
+    float: left;
+    columns: auto;
+
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    border: 3px antiquewhite solid;
+    margin: 15px 20px 20px 1px;
+    background-color: antiquewhite;
+
+    
+
+}
