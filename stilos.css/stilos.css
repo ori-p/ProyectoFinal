@@ -1,20 +1,96 @@
-
-.classfondo{
-    background-color: rgb(213, 202, 224);
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(210, 181, 236);
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.fondo{
+    width: 75%;
+	max-width: 750px;
+	min-height: 1000px;
+	background-color: rgb(219, 213, 224);
+	margin: 3px;
+	display: grid;
+	grid-template-columns: 1fr 6fr;
 
+}
+.derecha{
+    position: initial;
+    padding: 10px;
+    border-right: 1px solid;
+}
 
-#nombre{
-    float: left;
-    columns: auto;
-
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    border: 3px antiquewhite solid;
-    margin: 15px 20px 20px 1px;
-    background-color: antiquewhite;
+.izquierda{
+    position: initial;
+    padding: 30px;
+    margin-inline-start: 0px;
+   
 
     
+}
+
+#nombre{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 3px rgb(101, 89, 110) solid;
+    text-align: center;
+    margin-right: 60px;
+    padding: 15px 10px 15px 10px;
+    background-color: rgb(233, 221, 245);
+    display: grid;
+    grid-template-columns: 6fr;
+
+}
+#fan_icon{
+    margin-left: 30px;
+}
+.informacion{
+    
+    text-align: left;
+}
+#datos{
+    text-decoration: underline;
+}
+#Aptitudes{
+    text-decoration: underline;
+    text-align: left;
+}
+
+#Idiomas{
+    text-decoration: underline;
+    text-align: left;
+}
+
+#experiencias{
+    text-decoration: underline;
+    text-align: left;
+    margin: 20px;
+
+}
+
+#CafeMartinez , #Donatozurlo , #Natachanina {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#Educación {
+    table-layout:unset;
+    width: 100%;
+    border-collapse: separate;
+    border: 1px solid rgb(0, 0, 0);
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+thead{
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(233, 221, 245);
 
 }
